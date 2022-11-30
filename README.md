@@ -1,4 +1,14 @@
-# Usefull Links
+#Usefull infos
+
+## Git
+
+###1rst time : 
+git clone https://.....
+
+###refresh folder:
+git pull origin master
+
+## Links
 
 ###Flex-box - cheat sheet : 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
