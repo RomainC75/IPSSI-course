@@ -1,4 +1,4 @@
-#Usefull infos
+#Usefull infos for the IPSSI course (11/2022)
 
 ## Git
 
