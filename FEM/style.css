@@ -1,0 +1,68 @@
+*{
+    font-family: 'Overpass', sans-serif;
+    color:white;
+}
+
+html,body{
+    height:100%;
+}
+
+body{
+    background-color: #141519;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+p{
+    color:#717781;
+}
+
+h1{
+    font-size:25px;
+    margin:0;
+}
+
+.container{
+    background-color: #1B1C1F;
+    width:230px;
+    height:300px;
+    /* border: 1px solid white; */
+    border-radius:1em;
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.circle{
+    width:30px;
+    height:30px;
+    background-color: #2A3138;
+    border-radius:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.rate{
+    display:flex;
+    justify-content: space-between;
+}
+
+.button{
+    width:100%;
+    height:30px;
+    border-radius:15px;
+    background-color: #FC7613;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    align-self: center;
+    transition: all 1s ease-out ;
+}
+
+.button:hover{
+    background-color: #f88a3b;
+    transform: scale(1.1) translateX(-20px);
+}
