@@ -87,5 +87,22 @@ article{
 }
 
 @media (max-width:500px) {
-
+    h1{
+        font-size:20px;
+    }
+    .sub{
+        flex-direction: column;
+    }
+    .flag_container{
+        width:100%;
+    }
+    .infos{
+        flex-direction:column;
+    }
+    article{
+        width:100%;
+    }
+    section{
+        padding:50px 10px;
+    }
 }

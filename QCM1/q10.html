@@ -1,0 +1,41 @@
+center un élément .el dans une div (2d):
+On sous-entend que les dimensions du parent et de l'enfant sont déjà établies via d'autres sélecteurs.
+<div class="container">
+    <div class="el"></div>
+</div>
+
+1.
+
+.el{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+2.
+
+.container{
+    display:flex;
+    justify-items:space-between;
+    align-content:center;
+}
+
+
+3.
+
+.container{
+    display:flex;
+    justify-content:center;
+}
+.el{
+    align-self:center;
+}
+
+
+4.
+
+.container{
+    display:flex;
+    text-align:center;
+}

@@ -1,0 +1,9 @@
+Quelle est la ligne qui me permet d'importer un fichier css
+
+1. <link href="style.css" rel="stylesheet">
+
+2. <style href="style.css" rel="stylesheet">
+
+3. <style src="style.css" rel="stylesheet">
+
+4. <link src="style.css" rel="stylesheet">
