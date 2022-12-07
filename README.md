@@ -38,6 +38,7 @@ https://www.codewars.com
 #### [fonction](https://docs.google.com/presentation/d/1UGMWXy2r0e1zn5Fd0RlXhBYFA3IxAYOyTb0yp3nUfZA/edit?usp=share_link)
 #### [arrays](https://docs.google.com/presentation/d/1cQjYx6b-LQX8WIqPyW87D7uyOwNsIcbT_rXEnb3020U/edit?usp=share_link)
 
+#### [object](https://docs.google.com/presentation/d/1ehUZDEaNm3b_7fQoPESNgl4rk2kb2zxqksOw1bI76UY/edit?usp=share_link)
 
 
 

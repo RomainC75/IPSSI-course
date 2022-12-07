@@ -9,8 +9,9 @@ function maxOfTwoNumber(a,b){
     return b
 
 }
+
 // console.log(value)
 console.log( maxOfTwoNumber(-2,0) )
-if( maxOfTwoNumber(-2,0)==null ){
+if( maxOfTwoNumber(-2,0) ){
     console.log("egalité")
 }

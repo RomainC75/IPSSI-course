@@ -21,3 +21,5 @@ if (isPala){
 }else{
     console.log(`${phraseToCheck} is NOT a palindrome`)
 }
+
+const val = fn(param)
