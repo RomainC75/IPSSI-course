@@ -10,7 +10,7 @@ const avg = (array) =>{
             sum+=1
         }
     });
-    return sum/array.length
+    return (sum/array.length) && sum
 }
 
 const mixedArr = [6, 12, 'miami', 1, true, 'barca', '200', 'lisboa', 8, 10];
