@@ -78,9 +78,9 @@ const schoolSystem = {
     ]
   };
   
-  console.log(schoolSystem.schools[1].name); // <== Fake School 2
+  // console.log(schoolSystem.schools[1].name); // <== Fake School 2
   
-  console.log(schoolSystem.schools[1]);
+  // console.log(schoolSystem.schools[1]);
   //{ name: 'Fake School 2',
   //  classRooms: 
   //    [ 
@@ -89,7 +89,7 @@ const schoolSystem = {
   //    ] 
   // }
   
-  console.log(schoolSystem.schools[1].classRooms[0]);
+  // console.log(schoolSystem.schools[1].classRooms[0]);
   
   // {
   // 	teacher: { firstName: 'Lucas', lastName: 'Schroeder', age: 29 },
@@ -102,8 +102,15 @@ const schoolSystem = {
   // 	]
   // }
   
-  console.log(schoolSystem.schools[1].classRooms[0].students[1]);
+  // console.log(schoolSystem.schools[1].classRooms[0].students[1]);
   // <== { firstName: 'Jennyfer', lastName: 'Hane', age: 19 }
   
-  console.log(schoolSystem.schools[1].classRooms[0].students[1].firstName); // <== Jennyfer
-  
+  // console.log(schoolSystem.schools[1].classRooms[0].students[1].firstName); // <== Jennyfer
+  const student={
+    firstName:"Lucille",
+    lastName:"Lucano",
+    age:42
+  }
+  // console.log()
+  schoolSystem.schools[1].classRooms[0].students.push(student)
+  console.log(schoolSystem.schools[1].classRooms[0].students)
