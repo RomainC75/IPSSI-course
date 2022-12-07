@@ -38,3 +38,21 @@ const classes = [
     ]
   ];
   
+// const studentArray = []
+//   classes.forEach( classe =>{
+//     classe.forEach(student=>{
+//       // console.log(student)
+//       if(student.age==20){
+//         studentArray.push(student.firstName)
+//       }
+//     })
+//   })
+// console.log(studentArray)
+
+//Other solution
+const students = classes.flat()
+students.forEach(student =>{
+  if(student.age===20){
+    console.log(student.firstName )
+  }
+})

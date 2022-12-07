@@ -11,3 +11,9 @@ students.forEach(student=>{
         console.log(`Sarah is ${student.age} `)
     }
 })
+
+// for(let i=0 ; i<students.length; i++){
+//     if(students[i].name==="Sarah"){
+//         console.log(`Sarah is ${students[i].age} `)
+//     }
+// }
