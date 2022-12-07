@@ -107,31 +107,31 @@ Le `Saxon` est un plus faible `Soldier`. Contrairement au `Viking`, le `Saxon` n
 
 Modifiez le constructeur de `Saxon` pour qu'il hérite de `Soldier` et réimplémentez  la méthode `receiveDamage()` de `Saxon`.
 
-#### inheritance
+#### Héritage
 
 - `Saxon` doit "extend `Soldier`
 
 #### class
 
-- You don't have to include constructor method since this class will inherit perfectly from the parents class, both, the health and the strength (it `extends` Soldier class :wink: )
+- Vous n'avez pas besoin d'un constructor puisque cette class hérite de la classe parent (health et strength) - extension de la class "Soldier" :wink:
 
-#### `attack()` method
+#### méthode `attack()` 
 
-This method should be **inherited** from `Soldier`, no need to re-implement it.
+Cette méthode doit **hériter** de `Soldier`, pas besoin de la réimplémenter.
 
-- should be a function
-- should receive **0 arguments**
-- should return **the `strength` property of the `Saxon`**
+- doit être une fonction
+- doit recevoir **0 arguments**
+- doit retourner **la propriété `strength` de `Saxon`**
 
-#### `receiveDamage()` method
+#### méthode `receiveDamage()` 
 
-This method needs to be **re-implemented** for `Saxon` because the `Saxon` version needs to have different return values.
+Cette méthode a besoin d'être **re-implémentée** pour `Saxon` car la version de`Saxon` a besoin d'une valeur retour différente.
 
-- should be a function
-- should receive **1 argument** (the damage)
-- should remove the received damage from the `health` property
-- **si le Saxon is still alive**, il doit retourner **_"A Saxon has received DAMAGE points of damage"_**
-- **si le Saxon dies**, il doit retourner **_"A Saxon has died in combat"_**
+- doit être une fonction
+- doit recevoir **1 argument** ( damage)
+- doit supprimer les dommages reçus de la propriété `health` 
+- **si le Saxon est encore en vie**, il doit retourner **_"A Saxon has received DAMAGE points of damage"_**
+- **si le Saxon est mort**, il doit retourner **_"A Saxon has died in combat"_**
 
 <br>
 
@@ -139,67 +139,47 @@ This method needs to be **re-implemented** for `Saxon` because the `Saxon` versi
 
 ### BONUS - Iteration 4: War
 
-Now we get to the good stuff: WAR! Our `War` class will allow us to have a `Viking` army and a `Saxon` army that battle each other.
+C'est là qu'on va pouvoir s'amuser :wink: 
+WAR! 
+Notre class `War` nous autorisera à avoir un `Viking` et un `Saxon` qui se battront l'un contre l'autre.
 
-Modify the `War` class and add 5 methods to its `class`:
+Modifier la class `War` et lui ajouter 5 méthodes:
 
-- `addViking()`
-- `addSaxon()`
+
 - `vikingAttack()`
 - `saxonAttack()`
 - `showStatus()`
 
 #### class
 
-When we first create a `War`, the armies should be empty. We will add soldiers to the armies later.
+A la création de `War`, ajoutez un Viking et un Saxon
 
-- should receive **0 arguments**
-- should assign an empty array to the **`vikingArmy` property**
-- should assign an empty array to the **`saxonArmy` property**
+- doit recevoir **0 arguments**
 
-#### `addViking()` method
-
-Adds 1 `Viking` to the `vikingArmy`. If you want a 10 `Viking` army, you need to call this 10 times.
-
-- should be a function
-- should receive **1 argument** (a `Viking` object)
-- should add the received `Viking` to the army
-- **shouldn't return** anything
-
-#### `addSaxon()` method
-
-The `Saxon` version of `addViking()`.
-
-- should be a function
-- should receive **1 argument** (a `Saxon` object)
-- should add the received `Saxon` to the army
-- **shouldn't return** anything
 
 #### `vikingAttack()` method
 
-A `Saxon` (chosen at random) has their `receiveDamage()` method called with the damage equal to the `strength` of a `Viking` (also chosen at random). This should only perform a single attack and the `Saxon` doesn't get to attack back.
+Le `Saxon`  appelle sa méthode `receiveDamage()` et recevra des dommages égales à la  `strength` du `Viking`. Une seule attaque sera déclenchée et `Saxon` ne contre attaque pas directement.
 
-- should be a function
-- should receive **0 arguments**
-- should make a `Saxon` `receiveDamage()` equal to the `strength` of a `Viking`
-- should remove dead saxons from the army
-- should return **result of calling `receiveDamage()` of a `Saxon`** with the `strength` of a `Viking`
+- doit être une fonction
+- doit recevoir **0 arguments**
+- `Saxon` doit `receiveDamage()` égale à la `strength` du `Viking`
+
 
 #### `saxonAttack()` method
 
 The `Saxon` version of `vikingAttack()`. A `Viking` receives the damage equal to the `strength` of a `Saxon`.
 
-- should be a function
-- should receive **0 arguments**
-- should make a `Viking` `receiveDamage()` equal to the `strength` of a `Saxon`
-- should remove dead vikings from the army
-- should return **result of calling `receiveDamage()` of a `Viking`** with the `strength` of a `Saxon`
+- doit être une fonction
+- doit reccevoir **0 arguments**
+- `Viking` doit `receiveDamage()` égale à la `strength` du `Saxon`
+
 
 <br>
 
 
 
-### BONUS - Iteration 5
+<!-- ### BONUS - Iteration 5
 
 Since there is a lot of repetitive code in the previous two iterations, methods _vikingAttack()_ and _saxonAttack()_, try to create one _generic_ method and call it in the case of _vikingAttack_ and in the case of _saxonAttack_ instead of using almost the same code for both methods. (This iteration doesn't have test, so ask your TAs and your instructor to give you feedback on the quality of your code after the refactor.)
 
@@ -217,6 +197,6 @@ Returns the current status of the `War` based on the size of the armies.
 
 - **if there are at least 1 `Viking` and 1 `Saxon`**, should return **_"Vikings and Saxons are still in the thick of battle."_**
 
-  
+   -->
 
 **Happy Coding!** 💙
