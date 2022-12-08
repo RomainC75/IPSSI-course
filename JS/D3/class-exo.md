@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Nous avons passé en revue la `programmation orientée objet`, les `class` et l'`héritage` en JS. Maintenant, allons travailler avec nos amis vikings et voir comment appliquer ces nouveaux concepts
+Nous avons passé en revue la `programmation orientée objet`, les `class` et l'`héritage` en JS. Maintenant, nous allons travailler avec nos amis vikings et voir comment appliquer ces nouveaux concepts
 
 <br>
 
@@ -87,7 +87,7 @@ Cette méthode a besoin d'être **re-implementée** pour `Viking` car `Viking` a
 
 - doit être une fonction
 - doit recevoir **1 argument** (damage)
-- doit les dommages reçus de la propriété `health` 
+- doit enlever les dommages reçus de la propriété `health` 
 - **si `Viking` est en vie**, it should return **"NAME has received DAMAGE points of damage"**
 - **si `Viking` est mort**, it should return **"NAME has died in act of combat"**
 
@@ -149,12 +149,14 @@ Modifier la class `War` et lui ajouter 5 méthodes:
 - `vikingAttack()`
 - `saxonAttack()`
 - `showStatus()`
+- `nextRound()`
 
 #### class
 
 A la création de `War`, ajoutez un Viking et un Saxon
 
 - doit recevoir **0 arguments**
+- doit avoir une variable qui précise qui doit attaquer
 
 
 #### `vikingAttack()` method
@@ -168,35 +170,21 @@ Le `Saxon`  appelle sa méthode `receiveDamage()` et recevra des dommages égale
 
 #### `saxonAttack()` method
 
-The `Saxon` version of `vikingAttack()`. A `Viking` receives the damage equal to the `strength` of a `Saxon`.
+La version `Saxon` de `vikingAttack()`. Le `Viking` reçoit des dommages égales à la  `strength` du `Saxon`.
 
 - doit être une fonction
 - doit reccevoir **0 arguments**
 - `Viking` doit `receiveDamage()` égale à la `strength` du `Saxon`
 
+#### `nextRound()` method
+Permet de faire attaquer le prochain joueur
 
 <br>
 
+### BONUS - Iteration 5: Go !
+Faire jouer tous les tours avec `nextRound()`
+Implémentez une méthode `battleContinues()`
+Penser à une façon  d'implémenter de l'aléatoire lors des attaques 
 
-
-<!-- ### BONUS - Iteration 5
-
-Since there is a lot of repetitive code in the previous two iterations, methods _vikingAttack()_ and _saxonAttack()_, try to create one _generic_ method and call it in the case of _vikingAttack_ and in the case of _saxonAttack_ instead of using almost the same code for both methods. (This iteration doesn't have test, so ask your TAs and your instructor to give you feedback on the quality of your code after the refactor.)
-
-#### `showStatus()` method
-
-Returns the current status of the `War` based on the size of the armies.
-
-- should be a function
-
-- should receive **0 arguments**
-
-- **if the `Saxon` array is empty**, should return **_"Vikings have won the war of the century!"_**
-
-- **if the `Viking` array is empty**, should return **_"Saxons have fought for their lives and survived another day..."_**
-
-- **if there are at least 1 `Viking` and 1 `Saxon`**, should return **_"Vikings and Saxons are still in the thick of battle."_**
-
-   -->
 
 **Happy Coding!** 💙

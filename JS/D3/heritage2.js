@@ -1,9 +1,22 @@
 class Rectangle {
-    // TODO
+    constructor(width, height){
+      this.width = width
+      this.height = height
+    }
+    calculatePerimeter(){
+      const perimeter = this.width*2 + this.height*2
+      return perimeter
+    }
+    calculateArea(){
+      const area = this.width * this.height
+      return area
+    }
   }
   
   class Square extends Rectangle {
-    // TODO
+    constructor(side){
+      super(side , side)
+    }
   }
   
   const r1 = new Rectangle(6, 7);

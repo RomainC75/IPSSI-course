@@ -20,16 +20,18 @@ const chuck = {
     // Hint: you can subtract 2 dates and you get the number of milliseconds
   },
   addJoke(joke) {
-    // TODO (don't use return statement)
+    this.jokes.push(joke)
   },
   getRandomJoke() {
     // TODO
+    const randomIndex = Math.floor(Math.random()*this.jokes.length)
+    return this.jokes[randomIndex]
   },
 };
 
 chuck.displayInfo();
 
-console.log("getAge", chuck.getAge()); // Should return 80 if you are in 2020
+// console.log("getAge", chuck.getAge()); // Should return 80 if you are in 2020
 
 chuck.addJoke("Chuck Norris can divide by zero.");
 console.log("getRandomJoke", chuck.getRandomJoke());
