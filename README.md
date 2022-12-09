@@ -42,5 +42,5 @@ https://www.codewars.com
 
 #### [object](https://docs.google.com/presentation/d/1ehUZDEaNm3b_7fQoPESNgl4rk2kb2zxqksOw1bI76UY/edit?usp=sharing)
 
-
+#### [DOM](https://docs.google.com/presentation/d/166p6yr4-1nQIcWr-9qkZAlQrpHgwLg2-h3cV-XDuSYc/edit?usp=sharing)
 

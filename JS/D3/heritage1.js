@@ -51,4 +51,12 @@ class Animal {
   //   mainColor: 'red', <== notice the difference
   //   sound: '...'
   // }
+
+
+  class RedCat extends Cat{
+    constructor(name, sound, nbOfLegs){
+      super(name, "red", sound, nbOfLegs);
+    }
+    
+  }
   
