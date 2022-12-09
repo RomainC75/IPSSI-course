@@ -1,0 +1,161 @@
+1.Comment déclarer un tableau « tab » de 10 éléments
+
+1 tab = new Array(10)
+2 const tab[10]
+3 const tab = array(10)
+4 const tab(10)
+
+
+2.obtenir un nombre aléatoire entre 5 et 9 inclus
+
+1 Math.floor((Math.random() * 5) + 4);
+2 Math.floor((Math.random() * 4) + 4);
+3 Math.floor((Math.random() * 4) + 5);
+4 Math.floor((Math.random() * 5) + 5);
+
+
+3.Vérifier que 3 variables sont égales
+
+1 X = Y = Z
+2 (X == Y) && (Y == Z)
+3 (X = Y) && (Y = Z)
+4 (X == Y) & (Y == Z)
+
+
+4.Lequel de ces paramètres n’est pas valide?
+
+1 texte
+2 une variable
+3 un opérateur
+4 un nombre
+
+
+5.Lequel n’est pas un opérateur de comparaison?
+ 
+1 <
+2 >
+3 =
+4 !=
+
+
+6.Quelle fonction procède l’inverse de split() ?
+ 
+1 append()
+2 unite()
+3 join()
+4 concat()
+
+
+
+7. Lequel des éléments suivants N’EST PAS un appel de fonction valide?
+
+1 const x = display();
+2 display;
+3 x = display();
+4 display();
+
+
+
+8. Quelle méthode renvoie le caractère à l’index spécifié dans une chaine de caractères ?
+
+1 characterAt()
+2 getCharAt()
+3 charAt()
+4 Aucune de ces réponses n’est vraie.
+
+
+
+9. Les 2 blocks "suivants" font ils la même chose à l'intérieur d'une fonction (y/n)?
+
+if(a<0){
+    return "négatif"
+}else{
+    return "positif"
+}
+_______________________
+if(a<0){
+    return "négatif"
+}
+return "positif"
+
+
+
+10. Que renvoie document.getElementById si au moins 1 élément est trouvé ? 
+
+1 l'élément HTML
+2 une tableau d'éléments HTML
+3 une collection de nodes
+4 le 1er élément HTML
+
+
+
+11. Quel est le mot réservé JS qui nous permet d'hériter d'une class ?
+
+1. new
+2  super
+3. heritage
+4. extends
+
+
+
+12. Quelle méthode me renvoie une copie (supérficielle) d'un tableau tab, des index 3 à 6 exclu sans modifier le tableau d'origine
+
+1 tab.slice(3,3)
+2 tab.splice(3,6)
+3 tab.slice(3,6)
+4 tab.splice(3,3)
+
+
+
+13. Séléctionner en javascript le premier élément du type :
+<div class="blue"></div>
+
+1 const el = document.querySelectorAll(".blue")
+2 const el = document.querySelector(".blue")
+3 const el = document.getElementsByClassName(".blue")
+4 const el = document.getElementById("blue")
+
+
+
+14. Séléctionner le deuxième élément trouvé ainsi :
+const elements = document.getElementsByClassName("myClass")
+
+1 const el = Array.forEach(elements[1])
+2 const el = Array.from(elements[1])
+3 const el = elements[1]
+4 const el = Array.from(elements)[1]
+
+
+
+15. En partant de
+const arr=[2,3,4]
+afficher avec :
+______
+1
+2
+3
+_______
+
+1. 
+arr.forEach(el=>{
+    console.log(el)
+})
+
+
+2.
+array.forEach((el,i)=>{
+    console.log(i-1)
+})
+
+
+3.
+arr.forEach((el,i)=>{
+    console.log(i+1)
+})
+
+
+4.
+Array.forEach(arr=>{
+    console.log(arr[i]-1)
+})
+
