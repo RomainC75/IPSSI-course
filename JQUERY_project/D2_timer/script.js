@@ -16,6 +16,8 @@ start_button.addEventListener("click",()=>{
 })
 
 const start_timing = () =>{
+    // setInterval execute une callback à intervalle régulier. Cette fonction retourne une id correspondante.
+    // cette callback ne s'arrêtera qu'en utilisant "clearInterval" avec l'id 
     id = setInterval(()=>{
         const current_value = parseInt(display.innerText)
         if(current_value<10){
