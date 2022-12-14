@@ -44,3 +44,4 @@ https://www.codewars.com
 
 #### [DOM](https://docs.google.com/presentation/d/166p6yr4-1nQIcWr-9qkZAlQrpHgwLg2-h3cV-XDuSYc/edit?usp=sharing)
 
+#### [JQUERY](https://docs.google.com/presentation/d/1YbyE53KNDZaGpc9BCLhhRYiDBmK_vTQZpSxUR7WYb34/edit?usp=sharing)
