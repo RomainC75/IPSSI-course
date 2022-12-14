@@ -1,0 +1,20 @@
+/* h1{
+    color:red;
+} */
+
+button{
+    /* font-size:2em; */
+    color:blue;
+}
+
+
+.big-title{
+    font-size:10rem;
+    color:yellow;
+    font-family: cursive;
+}
+
+
+.margin-50{
+    font-weight:bold;
+}
