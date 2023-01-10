@@ -1,0 +1,72 @@
+1. Dans quel balise HTML plaçons-nous le code JavaScript?
+
+1 La balise js
+2 La balise javascript
+3 La balise script
+4 La balise rel
+
+
+2 Quelle est la syntaxe correcte pour faire référence à un script externe appelé « myscript.js»?
+
+1 <script href="myscript.js">
+2 <script name="myscript.js">
+3 <script src="myscript.js">
+4 Tout les réponses sont vrais
+
+
+3 Quelle convention de nommage suit on en JavaScript ?
+
+1 libre, tant que vous suivez la même sur tout le projet
+2 snake case
+3 camel case
+4 cow case
+
+
+4 Doit on forcement spliter une chaine de caractères pour accéder à chacun des paramêtres ?
+
+y/n
+
+
+5 Quel est le raccourci qu'on utilise pour JQuery ?
+
+1 ?
+2 %
+3 $
+4 @
+
+
+6 Concernant le tableau arr, comment passer de [2,3,5] à [2,3,5,1] ?
+
+1 arr[3]=1
+2 arr.unshift(1)
+3 arr.shift(1)
+4 arr.push(1)
+
+
+7 Quel phrase est vraie ? 
+
+1 Pour utiliser JQuery, vous n'avez pas besoin de faire grand chose. La plupart des navigateurs s'installent avec cette librairie
+2 Pour utiliser JQuery, vous devez acheter JQuery à www.jquery.com
+3 Pour utiliser JQuery, vous pouvez vous reférer à la librairie JQuery hébergée par Google
+
+
+8 Que selectionne $("div.intro") ?
+
+1 Toutes les div avec id="intro"
+2 La première div avec class="intro"
+3 la première div avec id="intro"
+4 Toutes les div avec class="intro"
+
+
+9 Quelle est la commande JQuery correcte pour modifier le background-color de toutes les "p" en red
+
+1 $("p").style("background-color","red");
+2 $("p").layout("background-color","red");
+3 $("p").manipulate("background-color","red");
+4 $("p").css("background-color","red");
+
+
+10 Que selectionne $("div")
+
+1 Toutes les div
+2 La première div
