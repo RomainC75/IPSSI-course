@@ -26,6 +26,7 @@ class Player {
   displayInfo() {
     console.log(`${this.name} is at position ${this.position} and has ${this.cash}€`);
   }
+
 }
 
 // --- Initialization of players ---

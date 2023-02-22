@@ -19,3 +19,15 @@ function countLanguages(list) {
     })
     return obj
   }
+
+
+  function countLanguages(list) {
+    const register = new Set(list.map(dev=>dev.language))
+    const obj = {}
+    register.forEach(language=>{
+      obj[language]=list.reduce((accu,dev)=>{
+         return dev.language===language ? [...accu,dev] : accu
+      },[]).length
+    })
+    return obj
+  }

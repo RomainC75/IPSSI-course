@@ -15,6 +15,6 @@ const foods = ["banana", 'apple', "lemon", "avocado"]
 // console.log("els", elsPush)
 
 
-foods.forEach( (food)=>{
+foods.forEach(food=>{
     console.log( food )
 })

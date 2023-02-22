@@ -24,3 +24,16 @@ function getFirstPython(list) {
     },undefined)
     return foundDev ? foundDev : "There will be no Python developers"
   }
+
+
+  //some Attention : pas adapté !!
+  function getFirstPython(list) {
+    let name =''
+    const isPythonDev = list.some(dev=>{
+      if(dev.language==='Python'){
+        name = `${dev.firstName}, ${dev.country}`
+        return true
+      }
+    })
+    return isPythonDev ? name : "There will be no Python developers"
+  }

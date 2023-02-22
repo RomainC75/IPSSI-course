@@ -14,6 +14,8 @@ if(pal2===pal2bis){
     console.log("c'est un palindrome")
 }
 
+
+
 let j=pal2.length-1
 for(let i=0;i<pal2.length;i++){
     if(pal2[i]!==pal2[j]){
