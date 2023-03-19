@@ -1,3 +1,5 @@
+**/*/node_modules
+
 transition
 JS/node_modules
 
@@ -14,3 +16,5 @@ JQUERY_project/D3_JQuery/ex1/script.js
 JQUERY_project/D3_JQuery/ex1/script_old.js
 
 QCM2/correction
+
+Node-Rest/D2/express-hello-world

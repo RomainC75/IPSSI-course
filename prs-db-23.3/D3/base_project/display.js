@@ -1,5 +1,6 @@
 class Display{
     constructor(){
+        this.game = new Game()
         this.count=0
         this.init()
     }

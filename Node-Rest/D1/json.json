@@ -1,0 +1,11 @@
+{
+    "id": 123,
+    "name": "JSON T-Shirt",
+    "price": 99.99,
+    "tags": [ "Bar", "Eek" ],
+    "stock": {
+      "warehouse": 300,
+      "retail": 20
+    }
+  }
+  
