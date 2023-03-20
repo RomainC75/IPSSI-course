@@ -17,3 +17,7 @@
 [07-2](https://docs.google.com/presentation/d/14LA1vrtkcaIePma80-e5_H3LkD-iAH_-thbVRXA_Qhk/edit?usp=share_link)
 
 [08](https://docs.google.com/presentation/d/1RWmyXa6mIcyTJXbDKUaZ2WRiWdaykakhMnIGlEnX2co/edit?usp=share_link)
+
+09 - Postman
+
+[10](https://docs.google.com/presentation/d/197X86V4GqGdX1brO_XWbhjhao5Ifcj_e-hBUB6YyVhA/edit?usp=sharing)

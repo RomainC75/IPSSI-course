@@ -1,0 +1,11 @@
+<%- include('includes/head') %>
+    <h1><%= selectedName %></h1>
+    
+    <img src="/images/<%= selectedName %>.jpg" alt="<%= selectedName %>"/>
+    
+    <a href="/home">home</a>
+    <% for(let name of otherNames){  %>
+    <a href="/home/<%= name %>"><%= name %></a>
+    <% } %>
+</body>
+</html>
