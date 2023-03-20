@@ -1,5 +1,5 @@
 ## NODE COURSE LINK
- 
+
 [01](https://docs.google.com/presentation/d/1Na3YQt9TI6JtLn4SeOYzUUWxhduoj0nGCQp6nEakrJU/edit?usp=share_link)
 
 [02](https://docs.google.com/presentation/d/1UYPzDvT4EAeTKuYs8O6ykUD3cd2t8DvJBligzvbsQQM/edit?usp=share_link)
@@ -12,8 +12,8 @@
 
 [06](https://docs.google.com/presentation/d/1djDr9NhdrEa66dl2fk6gG7Hz5t5NttPGF8cEFXkWPog/edit?usp=share_link)
 
-[07](https://docs.google.com/presentation/d/1djDr9NhdrEa66dl2fk6gG7Hz5t5NttPGF8cEFXkWPog/edit?usp=share_link)
+[07](https://docs.google.com/presentation/d/16qiIjFSdakXwuLNbAk0JnRruAuTZp8F6Q4mQWmCtvvw/edit?usp=share_link)
 
-[07-2](https://docs.google.com/presentation/d/1djDr9NhdrEa66dl2fk6gG7Hz5t5NttPGF8cEFXkWPog/edit?usp=share_link)
+[07-2](https://docs.google.com/presentation/d/14LA1vrtkcaIePma80-e5_H3LkD-iAH_-thbVRXA_Qhk/edit?usp=share_link)
 
 [08](https://docs.google.com/presentation/d/1RWmyXa6mIcyTJXbDKUaZ2WRiWdaykakhMnIGlEnX2co/edit?usp=share_link)
