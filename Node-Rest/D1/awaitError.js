@@ -21,7 +21,7 @@ const directions = [
     try {
       await obtainDirections(0);
       await obtainDirections(1);
-    //   await obtainDirections(12)
+      await obtainDirections(12)
       await obtainDirections(2);
       await obtainDirections(3);
       console.log("You arrived at your destination!");

@@ -5,23 +5,27 @@ const directions = [
     "vous êtes arrivés à destination"
   ];
   
-  
   function obtainDirections(step) {
     return new Promise ( (resolve, reject) => {
+      resolve("true")
+      console.log('====')
       setTimeout(() => {
         console.log( directions[step] );
-  
         if (!directions[step]) reject("Instructions not found.")
-        else resolve();
+        else resolve("error");
       }, 2000); 
     })
   }
   
   async function getCoffee() {
-    await obtainDirections(0);
-    await obtainDirections(1);
-    await obtainDirections(2);
-    await obtainDirections(3);
+    try {
+      await obtainDirections(0);
+      await obtainDirections(1);
+      await obtainDirections(2);
+      await obtainDirections(3);
+    } catch (error) {
+      console.log('==>erro :',error)
+    }
     console.log("You arrived at your destination!");
   }
   
