@@ -7,8 +7,8 @@ const directions = [
   
   function obtainDirections(step) {
     return new Promise ( (resolve, reject) => {
-      resolve("true")
-      console.log('====')
+      // resolve("true")
+      // console.log('====')
       setTimeout(() => {
         console.log( directions[step] );
         if (!directions[step]) reject("Instructions not found.")
