@@ -1,5 +1,7 @@
-# PROJECT A RENDRE SUR GITHUB !!
+# Project de fin de module Node/Api
 
+### PROJECT A RENDRE SUR GITHUB !!
+#### (pensez à faire des commits réguliers)
 
 Tout comme Wunderlist ou Google Tasks, les **listes de tâches** font partie du quotidien des professionnels de tous secteurs confondus.
 
