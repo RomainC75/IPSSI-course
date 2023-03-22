@@ -1,4 +1,4 @@
-# Project de fin de module Node/Api
+# Projet de fin de module Node/Api
 
 ### PROJECT A RENDRE SUR GITHUB !!
 #### (pensez à faire des commits réguliers)
@@ -61,14 +61,15 @@ Si l'utilisateur supprime une tâche, un modal lui demande de confirmer cette ac
 ### points d'attention
 
 - organisation des dossiers : models, db, middleware, router, etc ...
+- organisation général des routes,
+- présence du CRUD complet ! avec les bons verbes (GET,POST,PATCH/PUT,DELETE)
 - noms des variables,
 - async/await,
 - quelques High Order Functions,
 - esLint, prettier,
 - models + relations,
 - authentification,
-- .env complet sans la connection à mongodb (faites un .env.dev pour que ça soit plus simple),
-- organisation des routes
+- .env complet sans la connection à mongodb (faites un .env.dev pour que ça soit plus simple)
 
 
 Concernant les relations one-to-many :
