@@ -1,6 +1,17 @@
 const router = require('express').Router()
 const bcrypt = require('bcrypt')
+const jwt = require('jsonwebtoken')
 const User = require('../models/user.model')
+
+router.get('/verify', async (req, res, next) => {
+    try {
+        const token = req.headers.authorization.split(' ')[1]
+        const decodedToken = jwt.verify(token, process.env.TOKEN_SECRET)
+        res.status(200).json({ message: 'token valid', decodedToken })
+    } catch (error) {
+        next(error)
+    }
+})
 
 router.post('/signup', async (req, res, next) => {
     try {
@@ -42,8 +53,20 @@ router.post('/login', async (req, res, next) => {
             return res.status(409).json({ message: 'wrong email or password' })
         }
         const isValid = await bcrypt.compare(password, foundUser.password)
-
-        res.status(200).json({ message: isValid })
+        if (!isValid) {
+            return res.status(409).json({ message: 'wrong email or password' })
+        }
+        const dataToSend = {
+            userId: foundUser._id.toString(),
+            token: jwt.sign(
+                { userId: foundUser._id.toString(), email: foundUser.email },
+                process.env.TOKEN_SECRET,
+                {
+                    expiresIn: '10h',
+                }
+            ),
+        }
+        res.status(200).json(dataToSend)
     } catch (error) {
         next(error)
     }
