@@ -54,4 +54,20 @@ Cette section n'apparaît que lorsque l'utilisateur clique sur une tâche. Il s'
 Si l'utilisateur supprime une tâche, un modal lui demande de confirmer cette action. La tâche disparaît alors de la liste de tâches.
 
 
+### points d'attention
+
+- organisation des dossiers : models, db, middleware, router, etc ...
+- noms des variables,
+- async/await,
+- quelques High Order Functions,
+- esLint, prettier,
+- models + relations,
+- authentification,
+- .env complet sans la connection à mongodb (faites un .env.dev pour que ça soit plus simple),
+- organisation des routes
+
+
+concernant les relations one-to-many :
+https://medium.com/@brandon.lau86/one-to-many-relationships-with-mongodb-and-mongoose-in-node-express-d5c9d23d93c2
+
 
