@@ -53,11 +53,5 @@ Cette section n'apparaît que lorsque l'utilisateur clique sur une tâche. Il s'
 
 Si l'utilisateur supprime une tâche, un modal lui demande de confirmer cette action. La tâche disparaît alors de la liste de tâches.
 
-## Points d'attention
 
-- L'utilisateur doit rester connecté tout au long de sa session;
-- Les *left* et *right sidebar* doivent être rétractables/ouvrables;
-- La *left sidebar* doit laisser apparaître les boutons/icônes permettant d'effectuer l'action de création d'une nouvelle liste de tâches et afficher une version minimale des liste de tâches (icônes,...);
-- Si aucune liste de tâches n'est sélectionnée, la région *main content* doit avertir l'utilisateur que rien n'est affichable tant qu'une liste n'est pas sélectionnée;
-- La *right sidebar* se rétracte automatiquement si on clique ailleurs que sur une tâche de la liste courante.
 
